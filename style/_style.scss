@@ -1,0 +1,69 @@
+main{
+    header{
+        .nav-second-part{
+            border-bottom: 1px rgb(196, 196, 196) solid;
+            .profile{
+                width: 20%;
+            }
+            .type{
+                width: 35%;
+            }
+            .icon-search{
+                width: 45%;
+                justify-content: end;
+            }
+        }
+        nav{
+            border-bottom: 1px rgb(196, 196, 196) solid;
+            ul{
+                .border-left{
+                    border-left: 1px rgb(196, 196, 196) solid;
+                }
+            }
+        }
+
+
+        .Friends-list{
+            direction: rtl;
+            width: 100%;
+            border-bottom: 1px rgb(184, 184, 184) solid;
+            .Friends-list-box{
+                width: 40%;
+                height: 95px;
+                background-color: #ffffff;
+            }
+            .profile-frind{
+                height: 100%;
+                align-items: center;
+                padding-right: 14px;
+            }
+            .typing-title{
+                width: 100%;
+                height: 70px;
+                align-items: start;
+                padding: 8px 0px 0px 0px;
+            }
+
+        }
+
+        footer{
+            ul{
+                width: 100%;
+                height: 70px;
+                align-items: center;
+                justify-content: space-around;
+                li{
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;                  
+                    .nav-link{
+                        color: #5E6C84;
+                    }
+                }
+                .green{
+                    color: #00B894 !important;
+                }
+            }
+        }
+    }
+}
